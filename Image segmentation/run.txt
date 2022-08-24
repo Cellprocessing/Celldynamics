@@ -1,0 +1,36 @@
+python -m cellpose  --dir F:/spyder/project/cellpose_seg/train/ --test_dir F:/spyder/project/cellpose_seg/test/ --pretrained_model cyto --chan 2 --chan2 1 --learning_rate 0.1 --weight_decay 0.0001 --n_epochs 100
+
+python -m cellpose --train --dir F:/spyder/project/cellpose_seg/train/ --test_dir F:/spyder/project/cellpose_seg/test/ --pretrained_model cyto --chan 2 --chan2 1 --learning_rate 0.1 --weight_decay 0.0001 --n_epochs 301
+
+
+        size mismatch for upsample.up.res_up_2.conv.conv_1.full.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is to
+rch.Size([128, 512]).
+        size mismatch for upsample.up.res_up_2.conv.conv_2.full.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is to
+rch.Size([128, 512]).
+        size mismatch for upsample.up.res_up_2.conv.conv_3.full.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is to
+rch.Size([128, 512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_0.0.weight: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size
+([512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_0.0.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([
+512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_0.0.running_mean: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torc
+h.Size([512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_0.0.running_var: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch
+.Size([512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_0.2.weight: copying a param with shape torch.Size([256, 256, 3, 3]) from checkpoint, the shape in current model is
+ torch.Size([256, 512, 3, 3]).
+        size mismatch for upsample.up.res_up_3.conv.conv_1.full.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is to
+rch.Size([256, 512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_2.full.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is to
+rch.Size([256, 512]).
+        size mismatch for upsample.up.res_up_3.conv.conv_3.full.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is to
+rch.Size([256, 512]).
+        size mismatch for upsample.up.res_up_3.proj.0.weight: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([512])
+.
+        size mismatch for upsample.up.res_up_3.proj.0.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([512]).
+        size mismatch for upsample.up.res_up_3.proj.0.running_mean: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size(
+[512]).
+        size mismatch for upsample.up.res_up_3.proj.0.running_var: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([
+512]).
+        size mismatch for upsample.up.res_up_3.proj.1.weight: copying a param with shape torch.Size([256, 256, 1, 1]) from checkpoint, the shape in current model is torch.
+Size([256, 512, 1, 1]).
