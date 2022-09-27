@@ -1,6 +1,7 @@
 """Tests for distributed_segmentation.py module."""
 import pathlib
 
+
 import dask
 import dask.array as da
 import numpy as np
